@@ -1,0 +1,63 @@
+/* Header uchun umumiy uslublar */
+header {
+    background-color: #f8fafc; /* Och kulrang fon */
+    padding: 80px 20px;        /* Yuqori va pastdan masofa */
+    text-align: center;        /* Matnni markazga tekshirish */
+    border-bottom: 1px solid #e2e8f0; /* Pastki qismidagi ingichka chiziq */
+}
+
+/* Katta sarlavha uslubi */
+header h1 {
+    color: #0f172a;            /* To'q ko'k-qora rang */
+    font-size: 36px;           /* Shrift hajmi */
+    font-weight: 700;          /* Qalinligi */
+    margin-bottom: 20px;       /* Pastdagi matndan masofasi */
+}
+
+/* Sayt haqidagi qisqa matn uslubi */
+header p {
+    color: #475569;            /* Kulrang matn */
+    font-size: 18px;           /* Shrift hajmi */
+    line-height: 1.6;          /* Qatorlar orasidagi masofa */
+    max-width: 600px;          /* Matn kengligi chegarasi */
+    margin: 0 auto 30px auto;  /* Matnni o'rtaga tekshirish va pastdan joy tashlash */
+}
+
+/* Tugmalar joylashgan blok */
+header div {
+    display: flex;
+    justify-content: center;   /* Tugmalarni markazga yig'ish */
+    gap: 15px;                 /* Tugmalar orasidagi masofa */
+}
+
+/* Tugmalarning umumiy uslubi */
+header a {
+    text-decoration: none;     /* Ostidagi chiziqni olib tashlash */
+    padding: 12px 24px;        /* Ichki kenglik */
+    border-radius: 6px;        /* Burchaklarni yumshatish */
+    font-size: 16px;           /* Shrift hajmi */
+    font-weight: 600;          /* Qalinligi */
+    transition: all 0.3s ease; /* Ranglar silliq o'zgarishi uchun */
+}
+
+/* Birinchi tugma (Loyihalarimni ko'rish) */
+header a:first-child {
+    background-color: #38bdf8; /* Havorang fon */
+    color: #ffffff;            /* Oq matn */
+}
+
+header a:first-child:hover {
+    background-color: #0ea5e9; /* Sichqoncha kelganda to'qroq havorang */
+}
+
+/* Ikkinchi tugma (Men bilan bog'lanish) */
+header a:last-child {
+    background-color: transparent; /* Shaffof fon */
+    color: #38bdf8;                /* Havorang matn */
+    border: 2px solid #38bdf8;     /* Havorang hoshiya (ramka) */
+}
+
+header a:last-child:hover {
+    background-color: #38bdf8;     /* Sichqoncha kelganda fon havorang bo'ladi */
+    color: #ffffff;                /* Matn esa oq bo'ladi */
+}
