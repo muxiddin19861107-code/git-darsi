@@ -1,0 +1,14 @@
+<header>
+    <!-- Asosiy katta sarlavha -->
+    <h1>Mening shaxsiy veb-saytimga xush kelibsiz!</h1>
+    
+    <!-- Sayt haqida qisqacha matn -->
+    <p>Bu yerda men o'zim o'rgangan texnologiyalar, yozgan kodlarim va kelajakdagi rejalarim haqida bo'lishaman.</p>
+    
+    <!-- Amalga oshirish tugmalari -->
+    <div>
+        <a href="#portfolio">Loyihalarimni ko'rish</a>
+        <a href="#contact">Men bilan bog'lanish</a>
+    </div>
+</header>
+
